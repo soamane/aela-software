@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{fa6877c1-1c11-47fa-ae71-f4b3a2b0f7a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{4788235c-e735-4136-9a67-25f4da3517b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat">
+      <UniqueIdentifier>{97aa1429-6e6e-4336-915b-8d2c924c479c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helpers">
+      <UniqueIdentifier>{030dad08-4983-4fc5-a2cd-7fe665ccbcc5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source.cc">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.hpp">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="classes.hpp">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers.hpp">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat.h">
+      <Filter>cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="binding.hpp">
+      <Filter>main</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
