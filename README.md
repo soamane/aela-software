@@ -1,10 +1,8 @@
-# aela-software
+# AELA INTERNAL CHEAT
 Internal software for Warface
 
-This modification includes several functions:
+## This modification includes several functions
+- Bone ESP
+- Class ESP
+- Trigger Bot
 
-• Bone ESP
-• Class ESP
-• Trigger Bot
-
-and a few others
